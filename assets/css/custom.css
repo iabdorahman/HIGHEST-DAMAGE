@@ -1,0 +1,94 @@
+body {
+    background-color: unset;
+    background-image: unset;
+}
+.team{
+	/*min-height: 157px;*/
+}
+table  tr:first-child > td:first-child, table  tr:first-child > td:first-child + th{ 
+    border:none; 
+}
+table tr td ,table td {
+	/*border:none!important; */
+}
+.member{
+	background: gray;
+	width: 10%;
+height: 28px;
+	display: inline-block;
+	margin: 0 2px;
+}
+.team-img-td{
+	width: 10%;
+	background: linear-gradient(0deg, rgba(216,221,238,1) 0%, rgba(219,224,234,1) 48%, rgba(240,247,252,1) 100%);
+}
+.team-img-td img{
+	width: 100%;
+	max-height: 32px;
+}
+.team-name-td{
+	font-size: 20px;
+	font-weight: bold;
+	width: 40%;
+	color: #343a40;
+	background: linear-gradient(0deg, rgb(206 144 9) 0%, rgba(255,187,26,1) 25%, rgba(255,187,26,1) 75%, rgb(206 144 9) 100%)
+}
+.team-rank-td{
+	width: 10%;color: gray;
+}
+.team-points-td{
+	width: 10%;
+	font-weight: bold;
+}
+.team-alive-td{
+	width: 15%;
+}
+.live{
+	background: white;
+}
+.top-title{
+	background: #2f333f;
+font-size: 20px;
+font-weight: bold;
+color: white;
+padding: 2px 50px;
+}
+.liveState5 td{
+	color:#c23535 !important;
+}
+.m-1 {
+    margin: .15rem !important;
+}
+.back-right{
+	background-image: url('../../assets/img/right.png');background-size: cover;
+}
+.back-left{
+	background-image: url('../../assets/img/left.png');background-size: cover;
+}
+.team-number{
+	font-size: 25px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .4rem;
+   }
+.dead-team b{
+	color: gray!important;
+}
+.dead-team h2 b,.dead-team h5{
+	color: #f47676 !important;
+}
+.dead-team{
+	border-color: red!important;
+}
+.team{
+	background: #1c1e3aa1;
+}
+.dead-team{
+	background: #ff000029!important;
+}
+.table-striped tbody tr{
+	background-color:#211f3b91;
+}
+.table-dark.table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: #211f3b40;
+}
